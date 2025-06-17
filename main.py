@@ -6,7 +6,7 @@ import asyncio
 
 
 def main() -> None:
-    print("__  Hello from master-asyncio-m! ___")
+    print("Hello from master-asyncio-m!")
 
 
 async def say_hello_async() -> None:
