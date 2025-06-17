@@ -1,21 +1,20 @@
-
-
-
 #  _________________
 #  Import LIBRARIES
 import asyncio
 #  Import  FILES
 #  _________________
 
-def main():
-    print("Hello from master-asyncio-m!")
+
+def main() -> None:
+    print("__  Hello from master-asyncio-m! ___")
 
 
-async def say_hello_async():
-    await asyncio.sleep(2)
+async def say_hello_async() -> None:
+    await asyncio.sleep(delay=2)
     print("Hello, Async World!")
 
-asyncio.run(say_hello_async())
+
+asyncio.run(main=say_hello_async())
 
 
 if __name__ == "__main__":
